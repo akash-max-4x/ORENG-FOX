@@ -7,14 +7,14 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "nayan-bot",
+  "BOTNAME": "MAX-ROBOT",
   "PREFIX": "/",
   "OPERATOR": [
-    "100014896964436",
-    "100000959749712"
+    "100071539569680",
+    ""
   ],
   "ADMINBOT": [
-    "100000959749712",
+    "100071539569680",
     ""
   ],
   "OWNER": ["100000959749712"], 
