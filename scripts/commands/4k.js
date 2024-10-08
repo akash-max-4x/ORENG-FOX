@@ -1,24 +1,17 @@
-const a = require('axios');
-const tinyurl = require('tinyurl');
-const baseApiUrl = async () => {
-  const base = await a.get(
-    `https://raw.githubusercontent.com/Blankid018/D1PT0/main/baseApiUrl.json`,
-  );
-  return base.data.api;
+module.exports.config = {
+  name: "bn",
+  version: "1.0.1",
+  permssion: 0,
+  credits: "Islamick Chat",
+  prefix: false,
+  description: "Text translation",
+  category: "media",
+  usages: "[en/ko/ja/vi] [Text]",
+  cooldowns: 5,
+  dependencies: {
+    "request":  ""
+  }
 };
-
-module.exports = {
-  config: {
-    name: "upscaleai",
-    aliases: ["4k", "upscale"],
-    version: "1.0",
-    author: "Dipto",
-    countDown: 15,
-    role: 0,
-    description: "Upscale your image.",
-    category: "utility",
-    guide: "{pn} reply to an image"
-  },
 
   onStart: async  ({ message,event, api }) => {
    // let imageUrl;
