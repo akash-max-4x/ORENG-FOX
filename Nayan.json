@@ -7,7 +7,9 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "MAX-ROBOT",
+  "banMsg": false,
+  "adminOnlyMsg": false,
+  "BOTNAME": "MAX ROBOT",
   "PREFIX": "/",
   "OPERATOR": [
     "100071539569680",
